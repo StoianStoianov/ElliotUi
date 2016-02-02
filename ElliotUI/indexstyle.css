@@ -1,0 +1,73 @@
+﻿header,.search_section{
+    display:inline-block;
+    margin-left:50px;
+}
+
+.options_nav #nav_container{  
+    text-align:center;
+    background-color:rgb(0, 255, 255);
+
+}
+
+.options_nav #nav_container span{      
+    padding-left:50px;
+
+}
+
+.names_section{  
+    width:15%;
+}
+
+.map_section{
+   
+    width:60%;       
+}
+
+.emergency_section{
+    width:15%;   
+}
+
+.emergency_section.alert{   
+    background-color:rgb(255,0,0);
+}
+
+.names_section,.map_section,.emergency_section{
+    display:inline-block;
+    vertical-align: top
+}
+
+
+ .map_section #my_map{
+            width:1000px;
+            height:500px;
+            
+        }
+
+ #refresh_rate{
+     width:40px;
+ }
+
+ .hide{
+     display:none;
+ }
+
+ .show{
+     display:block;
+ }
+
+ .hideId{
+     display:none;
+ }
+ .pacient_desctiption_node{
+     margin-top:15px;
+     border-bottom:1px solid black;
+ }
+
+ .emergency_pacient_desctiption_node{
+     margin-top:10px;    
+ }
+
+ .timer{
+     font-weight:bold;
+ }
+ 

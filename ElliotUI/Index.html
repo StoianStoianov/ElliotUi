@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="indexstyle.css" rel="stylesheet" />
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="scripts/libs/jquery-2.1.1.min.js"></script>
+    <script src="scripts/libs/ProjectedOverlay.js"></script>
+    <script src="scripts/libs/geoxml3.js"></script>
+      
+</head>
+<body>
+    <header>
+        <h1>Geo Track</h1>
+    </header>    
+    <section class="search_section">
+        <label>Find by name</label>
+        <input type="text"id="name_search" />
+        <input type="button" id="search_btn"value="search" />
+        <a href="#" id="show">Show all</a>
+    </section>
+  
+    <section class="options_nav">
+        <div id="nav_container">
+            <span>
+                <input type="number"min="1"max="30"value="5"id="refresh_rate" />
+                <label>Refresh interval</label>
+            </span>
+            <span>
+                <input type="checkbox"id="fit_bounds" />
+                <label>Fit bounds</label>
+            </span>
+            <span>
+                <input type="checkbox"id="show_names" />
+                <label>Show names</label>
+            </span>
+            
+        </div>
+    </section>
+
+   
+        <section class="names_section"></section>
+
+        <section class="map_section">
+            <div id="my_map">
+
+            </div>
+        </section>
+
+        <section class="emergency_section"></section>
+        <script src="scripts/main_script.js"></script>
+    
+</body>
+</html>

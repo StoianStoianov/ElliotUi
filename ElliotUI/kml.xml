@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:ns2="http://www.w3.org/2005/Atom" xmlns:ns3="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0">
+  <Document>
+    <Style id="PatientStyleNormal">
+      <IconStyle>
+        <Icon>
+          <href>./resources/patient-icon.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="PatientStyleEmergency">
+      <IconStyle>
+        <Icon>
+          <href>./resources/emergency-icon.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>ELLIOT</name>
+      <visibility>true</visibility>
+      <open>true</open>
+      <Placemark>
+        <name>Ivan Kamenov</name>
+        <description><![CDATA[Last Updated: 2015-02-16 16:08:18.811]]></description>
+        <styleUrl>#PatientStyleEmergency</styleUrl>
+        <Point>
+          <coordinates>23.18391489,42.17922468,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ivan Ivanov</name>
+        <description><![CDATA[Last Updated: 2014-10-12 14:32:02.353]]></description>
+        <styleUrl>#PatientStyleNormal</styleUrl>
+        <Point>
+          <coordinates>23.33166102,42.66143209,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Petar Petrov</name>
+        <description><![CDATA[Last Updated: 2015-02-16 16:08:18.811]]></description>
+        <styleUrl>#PatientStyleEmergency</styleUrl>
+        <Point>
+          <coordinates>23.43166122,42.56023239,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plamen Ivov</name>
+        <description><![CDATA[Last Updated: 2014-10-12 14:32:02.353]]></description>
+        <styleUrl>#PatientStyleNormal</styleUrl>
+        <Point>
+          <coordinates>23.93166153,42.26073269,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Asen Petrov</name>
+        <description><![CDATA[Last Updated: 2015-02-16 16:08:18.811]]></description>
+        <styleUrl>#PatientStyleEmergency</styleUrl>
+        <Point>
+          <coordinates>23.33166161,42.46063289,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plamen Evgeniev</name>
+        <description><![CDATA[Last Updated: 2014-10-12 14:32:02.353]]></description>
+        <styleUrl>#PatientStyleNormal</styleUrl>
+        <Point>
+          <coordinates>23.13166179,42.16053299,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
